@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { supabase } from './_lib/supabase.js';
+import { supabase } from '../src/lib/supabase.js';
 
 // LeetCode API Logic
 async function fetchLeetCode(username: string, year: number) {
